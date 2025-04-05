@@ -1,0 +1,101 @@
+/* Styles for the body */
+body {
+    background-color: #0f6292;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.container h2 {
+    margin-bottom: 20px;
+}
+
+/* Note Title - Red color */
+#title, #titleEdit {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #ced4da;
+    color: rgb(138, 11, 59); /* Red color for Note Title */
+}
+
+/* Note Description - Blue color */
+#description, #descriptionEdit {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #ced4da;
+    color: rgb(194, 36, 128); /* Blue color for Note Description */
+}
+
+/* Container styling for green background */
+.container {
+    background-color: #83c7d5; /* Light green background for the container */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Buttons styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-secondary {
+    border-radius: 0;
+}
+
+/* Table styling sno. title description action */ 
+.table {
+    background-color: #dd307b;
+    box-shadow: 0 2px 4px rgba(2, 62, 24, 0.1);
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table .btn {
+    margin: 0 5px;
+}
+
+/* Modal styling */
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.modal-footer .btn-primary {
+    background-color: #cd247b;
+}
+
+.modal-footer .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Success message styling */
+.alert {
+    border-radius: 0;
+}
+
+.alert-success {
+    background-color: #5dd078;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.alert-dismissible .close {
+    color: #fff;
+}
